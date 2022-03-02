@@ -1,0 +1,18 @@
+{
+  "Name": "Virtual Machine Operator",
+  "IsCustom": true,
+  "Description": "Can monitor and restart virtual machines.",
+  "Actions": [
+    "Microsoft.Storage/*",
+    "Microsoft.Resources/subscriptions/resourceGroups/read",
+    "Microsoft.Network/*",
+    "Microsoft.Compute/*",
+    "Microsoft.Authorization/*/read"
+  ],
+  "NotActions": [],
+  "DataActions": [],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "/subscriptions/<subscriptionid>"
+  ]
+}
